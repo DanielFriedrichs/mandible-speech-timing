@@ -1,0 +1,273 @@
+# ArtiSynth local environment discovery
+generated_utc=2026-07-19T13:28:37Z
+project_root=/Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible
+
+## Operating system
+ProductName:		macOS
+ProductVersion:		26.5.1
+BuildVersion:		25F80
+Darwin DFs-MacBook-Pro.local 25.5.0 Darwin Kernel Version 25.5.0: Mon Apr 27 20:41:15 PDT 2026; root:xnu-12377.121.6~2/RELEASE_ARM64_T6041 arm64
+arm64
+
+## Java
+/usr/bin/java
+java version "25.0.2" 2026-01-20 LTS
+Java(TM) SE Runtime Environment (build 25.0.2+10-LTS-69)
+Java HotSpot(TM) 64-Bit Server VM (build 25.0.2+10-LTS-69, mixed mode, sharing)
+/usr/bin/javac
+javac 25.0.2
+Matching Java Virtual Machines (5):
+    25.0.2 (arm64) "Oracle Corporation" - "Java SE 25.0.2" /Library/Java/JavaVirtualMachines/jdk-25.jdk/Contents/Home
+    11.0.22 (arm64) "Amazon.com Inc." - "Amazon Corretto 11" /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+    1.8.351.10 (x86_64) "Oracle Corporation" - "Java" /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home
+    1.8.0_472 (x86_64) "Eclipse Temurin" - "Eclipse Temurin 8" /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home
+    1.8.0_382 (arm64) "Amazon" - "Amazon Corretto 8" /Library/Java/JavaVirtualMachines/amazon-corretto-8.jdk/Contents/Home
+/Library/Java/JavaVirtualMachines/jdk-25.jdk/Contents/Home
+
+## Python
+/Users/danielfriedrichs/miniforge3/bin/python3
+Python 3.12.7
+python_executable=/Users/danielfriedrichs/miniforge3/bin/python3
+python_version=3.12.7 | packaged by conda-forge | (main, Oct  4 2024, 15:57:01) [Clang 17.0.6 ]
+platform=macOS-26.5.1-arm64-arm-64bit
+
+## Candidate ArtiSynth installations from Spotlight
+/Users/danielfriedrichs/Applications/artisynth_core/bin/artisynth
+
+## Candidate ArtiSynth launchers in common locations
+/Users/danielfriedrichs/Applications/artisynth_core/bin/artisynth
+
+## Relevant project files
+/Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/_github_staging_mandible_speech_timing/artisynth/compute_fmax.py
+/Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/_github_staging_mandible_speech_timing/artisynth/install_compile_and_run_force_scaled_s2.sh
+/Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/_github_staging_mandible_speech_timing/artisynth/java/MandibleScalingInverseDDK.java
+/Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/_github_staging_mandible_speech_timing/artisynth/make_fmax_twoamp.py
+/Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/_github_staging_mandible_speech_timing/artisynth/recompile_mandible_model_java8_and_smoke.sh
+/Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/_github_staging_mandible_speech_timing/artisynth/run_artisynth_case.py
+/Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/_github_staging_mandible_speech_timing/artisynth/run_force_scaled_artisynth_grid_v3_extraargs.py
+/Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/_github_staging_mandible_speech_timing/artisynth/run_sweep.sh
+/Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/_github_staging_mandible_speech_timing/artisynth/run_two_amp_sweeps.sh
+/Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/MandibleScalingInverseDDK.java
+/Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/compute_fmax.py
+/Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/force_scale_exact_patch/MandibleScalingInverseDDK.java
+/Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/force_scale_exact_patch/install_compile_and_run_force_scaled_s2.sh
+/Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/force_scale_exact_patch/run_force_scaled_artisynth_grid_v3_extraargs.py
+/Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/install_compile_and_run_force_scaled_s2.sh
+/Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/make_fmax_twoamp.py
+/Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/recompile_mandible_model_java8_and_smoke.sh
+/Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/run_artisynth_case.py
+/Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/run_force_scaled_artisynth_grid_v3_extraargs.py
+/Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/run_sweep.sh
+/Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/run_two_amp_sweeps.sh
+
+## Launcher/build references in relevant scripts
+### /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/_github_staging_mandible_speech_timing/artisynth/install_compile_and_run_force_scaled_s2.sh
+5:ARTI="${ARTI:-$PROJECT/outputs_strategy1/artisynth_scaling}"
+6:ARTISYNTH_HOME="${ARTISYNTH_HOME:-/Users/danielfriedrichs/Applications/artisynth_core}"
+7:MODELS="${MODELS:-/Users/danielfriedrichs/Applications/artisynth_models}"
+8:MODELS_CLASSES="${MODELS_CLASSES:-$MODELS/classes}"
+9:JAVA_SRC="$MODELS/src/artisynth/models/dynjaw/MandibleScalingInverseDDK.java"
+23:  export JAVA_HOME="${JAVA_HOME:-$(/usr/libexec/java_home -v 1.8 -a x86_64)}"
+24:  export PATH="$JAVA_HOME/bin:$PATH"
+27:echo "JAVA_HOME=${JAVA_HOME:-<not set>}"
+28:java -version
+37:CP="$MODELS_CLASSES:$ARTISYNTH_HOME/classes:$ARTISYNTH_HOME/lib/*"
+39:javac -cp "$CP" -d "$MODELS_CLASSES" "$JAVA_SRC"
+46:python "$ARTI/run_artisynth_case.py" \
+### /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/_github_staging_mandible_speech_timing/artisynth/recompile_mandible_model_java8_and_smoke.sh
+5:# Intended location: outputs_strategy1/artisynth_scaling/recompile_mandible_model_java8_and_smoke.sh
+8:ARTI="${ARTI:-$PROJECT/outputs_strategy1/artisynth_scaling}"
+9:ARTISYNTH_HOME="${ARTISYNTH_HOME:-/Users/danielfriedrichs/Applications/artisynth_core}"
+10:MODELS="${MODELS:-/Users/danielfriedrichs/Applications/artisynth_models}"
+11:MODELS_CLASSES="${MODELS_CLASSES:-$MODELS/classes}"
+12:MODEL_SRC_DIR="$MODELS/src/artisynth/models/dynjaw"
+15:MODEL_CLASS_FILE="$MODELS_CLASSES/artisynth/models/dynjaw/MandibleScalingInverseDDK.class"
+41:if [[ -n "${JAVA_HOME:-}" && -x "$JAVA_HOME/bin/javac" ]]; then
+42:  JAVAC="$JAVA_HOME/bin/javac"
+46:    JH="$(/usr/libexec/java_home -v 1.8 2>/dev/null || true)"
+47:    if [[ -n "$JH" && -x "$JH/bin/javac" ]]; then
+48:      JAVAC="$JH/bin/javac"
+55:  JAVAC="$(command -v javac || true)"
+57:    echo "ERROR: Could not find javac." >&2
+58:    echo "Install a JDK, or set JAVA_HOME to a Java 8 JDK. A Java 8 JRE is not enough." >&2
+61:  # Modern javac can emit Java 8 bytecode with --release 8.
+73:CP="$MODELS_CLASSES:$ARTISYNTH_HOME/classes:$ARTISYNTH_HOME/lib/*"
+107:java -version || true
+114:python "$ARTI/run_artisynth_case.py" \
+### /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/_github_staging_mandible_speech_timing/artisynth/run_artisynth_case.py
+9:from dataclasses import dataclass
+15:DEFAULT_ARTISYNTH_HOME = Path("/Users/danielfriedrichs/Applications/artisynth_core")
+16:DEFAULT_MODELS = Path("/Users/danielfriedrichs/Applications/artisynth_models")
+17:DEFAULT_MODELS_CLASSES = DEFAULT_MODELS / "classes"
+18:DEFAULT_MODEL_CLASS = "artisynth.models.dynjaw.MandibleScalingInverseDDK"
+42:            ["/usr/libexec/java_home", "-v", "1.8", "-a", "x86_64"],
+51:    java_home = proc.stdout.strip()
+52:    if not java_home:
+55:    env["JAVA_HOME"] = java_home
+56:    env["PATH"] = f"{java_home}/bin:{env.get('PATH', '')}"
+61:    artisynth_home: Path,
+62:    models_classes: Path,
+89:        str(artisynth_home / "bin" / "artisynth"),
+92:        str(models_classes),
+154:    artisynth_home: Path,
+155:    models_classes: Path,
+190:        artisynth_home=artisynth_home,
+191:        models_classes=models_classes,
+281:    ap.add_argument("--artisynth_home", type=Path, default=DEFAULT_ARTISYNTH_HOME)
+282:    ap.add_argument("--models_classes", type=Path, default=DEFAULT_MODELS_CLASSES)
+331:        artisynth_home=args.artisynth_home.expanduser().resolve(),
+332:        models_classes=args.models_classes.expanduser().resolve(),
+### /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/_github_staging_mandible_speech_timing/artisynth/run_force_scaled_artisynth_grid_v3_extraargs.py
+5:This version is compatible with the current run_artisynth_case.py, which forwards
+60:    ap.add_argument("--artisynth_home", type=Path, default=None)
+61:    ap.add_argument("--models_classes", type=Path, default=None)
+114:                add_opt(cmd, "--artisynth_home", args.artisynth_home.expanduser().resolve() if args.artisynth_home else None)
+115:                add_opt(cmd, "--models_classes", args.models_classes.expanduser().resolve() if args.models_classes else None)
+120:                # Raw model args forwarded by run_artisynth_case.py to MandibleScalingInverseDDK.
+188:            out_long = derived_dir / "artisynth_force_scaled_runs_long_twoamp.csv"
+### /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/_github_staging_mandible_speech_timing/artisynth/run_sweep.sh
+22:ARTISYNTH_HOME="${ARTISYNTH_HOME:-/Users/danielfriedrichs/Applications/artisynth_core}"
+23:MODELS="${MODELS:-/Users/danielfriedrichs/Applications/artisynth_models}"
+24:MODELS_CLASSES="${MODELS_CLASSES:-$MODELS/classes}"
+32:ARTISYNTH_BIN="${ARTISYNTH_BIN:-$ARTISYNTH_HOME/bin/artisynth}"
+33:MODEL_CLASS="${MODEL_CLASS:-artisynth.models.dynjaw.MandibleScalingInverseDDK}"
+63:  export JAVA_HOME="${JAVA_HOME:-$(/usr/libexec/java_home -v 1.8 -a x86_64)}"
+64:  export PATH="$JAVA_HOME/bin:$PATH"
+67:echo "[JAVA_HOME] ${JAVA_HOME:-"(not set)"}"
+68:if [[ -n "${JAVA_HOME:-}" && -x "$JAVA_HOME/bin/java" ]]; then
+69:  echo "[JAVA_ARCH ] $(file "$JAVA_HOME/bin/java")"
+71:java -version
+108:  "$ARTISYNTH_BIN" -noGui \
+### /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/_github_staging_mandible_speech_timing/artisynth/run_two_amp_sweeps.sh
+30:  python quick_qc_artisynth.py --indir runs
+36:  mv derived/artisynth_scaling_runs_long.csv "derived/artisynth_scaling_runs_long_amp${TAG}.csv"
+44:p10 = Path("derived/artisynth_scaling_runs_long_amp1p0.csv")
+45:p15 = Path("derived/artisynth_scaling_runs_long_amp1p5.csv")
+46:out = Path("derived/artisynth_scaling_runs_long_twoamp.csv")
+67:  --in_csv derived/artisynth_scaling_runs_long_twoamp.csv \
+68:  --out_csv derived/artisynth_fmax_by_scale_twoamp.csv \
+### /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/force_scale_exact_patch/install_compile_and_run_force_scaled_s2.sh
+5:ARTI="${ARTI:-$PROJECT/outputs_strategy1/artisynth_scaling}"
+6:ARTISYNTH_HOME="${ARTISYNTH_HOME:-/Users/danielfriedrichs/Applications/artisynth_core}"
+7:MODELS="${MODELS:-/Users/danielfriedrichs/Applications/artisynth_models}"
+8:MODELS_CLASSES="${MODELS_CLASSES:-$MODELS/classes}"
+9:JAVA_SRC="$MODELS/src/artisynth/models/dynjaw/MandibleScalingInverseDDK.java"
+23:  export JAVA_HOME="${JAVA_HOME:-$(/usr/libexec/java_home -v 1.8 -a x86_64)}"
+24:  export PATH="$JAVA_HOME/bin:$PATH"
+27:echo "JAVA_HOME=${JAVA_HOME:-<not set>}"
+28:java -version
+37:CP="$MODELS_CLASSES:$ARTISYNTH_HOME/classes:$ARTISYNTH_HOME/lib/*"
+39:javac -cp "$CP" -d "$MODELS_CLASSES" "$JAVA_SRC"
+46:python "$ARTI/run_artisynth_case.py" \
+### /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/force_scale_exact_patch/run_force_scaled_artisynth_grid_v3_extraargs.py
+5:This version is compatible with the current run_artisynth_case.py, which forwards
+60:    ap.add_argument("--artisynth_home", type=Path, default=None)
+61:    ap.add_argument("--models_classes", type=Path, default=None)
+114:                add_opt(cmd, "--artisynth_home", args.artisynth_home.expanduser().resolve() if args.artisynth_home else None)
+115:                add_opt(cmd, "--models_classes", args.models_classes.expanduser().resolve() if args.models_classes else None)
+120:                # Raw model args forwarded by run_artisynth_case.py to MandibleScalingInverseDDK.
+188:            out_long = derived_dir / "artisynth_force_scaled_runs_long_twoamp.csv"
+### /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/install_compile_and_run_force_scaled_s2.sh
+5:ARTI="${ARTI:-$PROJECT/outputs_strategy1/artisynth_scaling}"
+6:ARTISYNTH_HOME="${ARTISYNTH_HOME:-/Users/danielfriedrichs/Applications/artisynth_core}"
+7:MODELS="${MODELS:-/Users/danielfriedrichs/Applications/artisynth_models}"
+8:MODELS_CLASSES="${MODELS_CLASSES:-$MODELS/classes}"
+9:JAVA_SRC="$MODELS/src/artisynth/models/dynjaw/MandibleScalingInverseDDK.java"
+23:  export JAVA_HOME="${JAVA_HOME:-$(/usr/libexec/java_home -v 1.8 -a x86_64)}"
+24:  export PATH="$JAVA_HOME/bin:$PATH"
+27:echo "JAVA_HOME=${JAVA_HOME:-<not set>}"
+28:java -version
+37:CP="$MODELS_CLASSES:$ARTISYNTH_HOME/classes:$ARTISYNTH_HOME/lib/*"
+39:javac -cp "$CP" -d "$MODELS_CLASSES" "$JAVA_SRC"
+46:python "$ARTI/run_artisynth_case.py" \
+### /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/recompile_mandible_model_java8_and_smoke.sh
+5:# Intended location: outputs_strategy1/artisynth_scaling/recompile_mandible_model_java8_and_smoke.sh
+8:ARTI="${ARTI:-$PROJECT/outputs_strategy1/artisynth_scaling}"
+9:ARTISYNTH_HOME="${ARTISYNTH_HOME:-/Users/danielfriedrichs/Applications/artisynth_core}"
+10:MODELS="${MODELS:-/Users/danielfriedrichs/Applications/artisynth_models}"
+11:MODELS_CLASSES="${MODELS_CLASSES:-$MODELS/classes}"
+12:MODEL_SRC_DIR="$MODELS/src/artisynth/models/dynjaw"
+15:MODEL_CLASS_FILE="$MODELS_CLASSES/artisynth/models/dynjaw/MandibleScalingInverseDDK.class"
+41:if [[ -n "${JAVA_HOME:-}" && -x "$JAVA_HOME/bin/javac" ]]; then
+42:  JAVAC="$JAVA_HOME/bin/javac"
+46:    JH="$(/usr/libexec/java_home -v 1.8 2>/dev/null || true)"
+47:    if [[ -n "$JH" && -x "$JH/bin/javac" ]]; then
+48:      JAVAC="$JH/bin/javac"
+55:  JAVAC="$(command -v javac || true)"
+57:    echo "ERROR: Could not find javac." >&2
+58:    echo "Install a JDK, or set JAVA_HOME to a Java 8 JDK. A Java 8 JRE is not enough." >&2
+61:  # Modern javac can emit Java 8 bytecode with --release 8.
+73:CP="$MODELS_CLASSES:$ARTISYNTH_HOME/classes:$ARTISYNTH_HOME/lib/*"
+107:java -version || true
+114:python "$ARTI/run_artisynth_case.py" \
+### /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/run_artisynth_case.py
+9:from dataclasses import dataclass
+15:DEFAULT_ARTISYNTH_HOME = Path("/Users/danielfriedrichs/Applications/artisynth_core")
+16:DEFAULT_MODELS = Path("/Users/danielfriedrichs/Applications/artisynth_models")
+17:DEFAULT_MODELS_CLASSES = DEFAULT_MODELS / "classes"
+18:DEFAULT_MODEL_CLASS = "artisynth.models.dynjaw.MandibleScalingInverseDDK"
+42:            ["/usr/libexec/java_home", "-v", "1.8", "-a", "x86_64"],
+51:    java_home = proc.stdout.strip()
+52:    if not java_home:
+55:    env["JAVA_HOME"] = java_home
+56:    env["PATH"] = f"{java_home}/bin:{env.get('PATH', '')}"
+61:    artisynth_home: Path,
+62:    models_classes: Path,
+89:        str(artisynth_home / "bin" / "artisynth"),
+92:        str(models_classes),
+154:    artisynth_home: Path,
+155:    models_classes: Path,
+190:        artisynth_home=artisynth_home,
+191:        models_classes=models_classes,
+281:    ap.add_argument("--artisynth_home", type=Path, default=DEFAULT_ARTISYNTH_HOME)
+282:    ap.add_argument("--models_classes", type=Path, default=DEFAULT_MODELS_CLASSES)
+331:        artisynth_home=args.artisynth_home.expanduser().resolve(),
+332:        models_classes=args.models_classes.expanduser().resolve(),
+### /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/run_force_scaled_artisynth_grid_v3_extraargs.py
+5:This version is compatible with the current run_artisynth_case.py, which forwards
+60:    ap.add_argument("--artisynth_home", type=Path, default=None)
+61:    ap.add_argument("--models_classes", type=Path, default=None)
+114:                add_opt(cmd, "--artisynth_home", args.artisynth_home.expanduser().resolve() if args.artisynth_home else None)
+115:                add_opt(cmd, "--models_classes", args.models_classes.expanduser().resolve() if args.models_classes else None)
+120:                # Raw model args forwarded by run_artisynth_case.py to MandibleScalingInverseDDK.
+188:            out_long = derived_dir / "artisynth_force_scaled_runs_long_twoamp.csv"
+### /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/run_sweep.sh
+22:ARTISYNTH_HOME="${ARTISYNTH_HOME:-/Users/danielfriedrichs/Applications/artisynth_core}"
+23:MODELS="${MODELS:-/Users/danielfriedrichs/Applications/artisynth_models}"
+24:MODELS_CLASSES="${MODELS_CLASSES:-$MODELS/classes}"
+32:ARTISYNTH_BIN="${ARTISYNTH_BIN:-$ARTISYNTH_HOME/bin/artisynth}"
+33:MODEL_CLASS="${MODEL_CLASS:-artisynth.models.dynjaw.MandibleScalingInverseDDK}"
+63:  export JAVA_HOME="${JAVA_HOME:-$(/usr/libexec/java_home -v 1.8 -a x86_64)}"
+64:  export PATH="$JAVA_HOME/bin:$PATH"
+67:echo "[JAVA_HOME] ${JAVA_HOME:-"(not set)"}"
+68:if [[ -n "${JAVA_HOME:-}" && -x "$JAVA_HOME/bin/java" ]]; then
+69:  echo "[JAVA_ARCH ] $(file "$JAVA_HOME/bin/java")"
+71:java -version
+108:  "$ARTISYNTH_BIN" -noGui \
+### /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/run_two_amp_sweeps.sh
+30:  python quick_qc_artisynth.py --indir runs
+36:  mv derived/artisynth_scaling_runs_long.csv "derived/artisynth_scaling_runs_long_amp${TAG}.csv"
+44:p10 = Path("derived/artisynth_scaling_runs_long_amp1p0.csv")
+45:p15 = Path("derived/artisynth_scaling_runs_long_amp1p5.csv")
+46:out = Path("derived/artisynth_scaling_runs_long_twoamp.csv")
+67:  --in_csv derived/artisynth_scaling_runs_long_twoamp.csv \
+68:  --out_csv derived/artisynth_fmax_by_scale_twoamp.csv \
+
+## SHA256 hashes of relevant project files
+76629301be6471250b86c0b8d51355c1820ca669ec140a2b699fe98ab307cb2b  /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/_github_staging_mandible_speech_timing/artisynth/compute_fmax.py
+799d47ab21693d4a08946800982bcd35619878a9696bb09d066f86722cf3ee62  /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/_github_staging_mandible_speech_timing/artisynth/install_compile_and_run_force_scaled_s2.sh
+518ea0a1f2e12e4479db9760cf8ea662d3d106111f60c0e109b51493de05624c  /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/_github_staging_mandible_speech_timing/artisynth/java/MandibleScalingInverseDDK.java
+065736cdcfa5eff8f8bfe213457de6e3e972905ed54edaa2a5ea569da9df2b77  /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/_github_staging_mandible_speech_timing/artisynth/make_fmax_twoamp.py
+26b86912b46df7dd0e5aebc67c4fcf5c0dd680435a4950be4f865aac706cad9a  /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/_github_staging_mandible_speech_timing/artisynth/recompile_mandible_model_java8_and_smoke.sh
+8ebf5c94b6c1fc2784a1c4e96283c849e914865157f6ccf81666e70b18b2aa86  /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/_github_staging_mandible_speech_timing/artisynth/run_artisynth_case.py
+15e9aad7a0b99f5a3d6852cd3e4d13beeb1c51857297bbae140b6d8cdaa2506b  /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/_github_staging_mandible_speech_timing/artisynth/run_force_scaled_artisynth_grid_v3_extraargs.py
+518ea0a1f2e12e4479db9760cf8ea662d3d106111f60c0e109b51493de05624c  /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/MandibleScalingInverseDDK.java
+76629301be6471250b86c0b8d51355c1820ca669ec140a2b699fe98ab307cb2b  /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/compute_fmax.py
+518ea0a1f2e12e4479db9760cf8ea662d3d106111f60c0e109b51493de05624c  /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/force_scale_exact_patch/MandibleScalingInverseDDK.java
+799d47ab21693d4a08946800982bcd35619878a9696bb09d066f86722cf3ee62  /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/force_scale_exact_patch/install_compile_and_run_force_scaled_s2.sh
+15e9aad7a0b99f5a3d6852cd3e4d13beeb1c51857297bbae140b6d8cdaa2506b  /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/force_scale_exact_patch/run_force_scaled_artisynth_grid_v3_extraargs.py
+799d47ab21693d4a08946800982bcd35619878a9696bb09d066f86722cf3ee62  /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/install_compile_and_run_force_scaled_s2.sh
+065736cdcfa5eff8f8bfe213457de6e3e972905ed54edaa2a5ea569da9df2b77  /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/make_fmax_twoamp.py
+26b86912b46df7dd0e5aebc67c4fcf5c0dd680435a4950be4f865aac706cad9a  /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/recompile_mandible_model_java8_and_smoke.sh
+8ebf5c94b6c1fc2784a1c4e96283c849e914865157f6ccf81666e70b18b2aa86  /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/run_artisynth_case.py
+15e9aad7a0b99f5a3d6852cd3e4d13beeb1c51857297bbae140b6d8cdaa2506b  /Users/danielfriedrichs/Documents/Code/Python/SpeechRateAndMandible/outputs_strategy1/artisynth_scaling/run_force_scaled_artisynth_grid_v3_extraargs.py

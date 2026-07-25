@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the tagged software release, the associated manuscript, and the SWISSUbase Version 1.2 dataset."
+title: "Mandibular length and speech timing: analysis and validation package"
+type: software
+license: MIT
+repository-code: "https://github.com/DanielFriedrichs/mandible-speech-timing"
+version: "1.0.0"
+authors:
+  - family-names: Friedrichs
+    given-names: Daniel
+  - family-names: Dellwo
+    given-names: Volker
+keywords:
+  - speech timing
+  - mandibular length
+  - generalized estimating equations
+  - electromagnetic articulography
+  - reproducibility

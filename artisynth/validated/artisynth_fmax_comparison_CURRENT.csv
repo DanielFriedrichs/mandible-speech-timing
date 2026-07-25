@@ -1,0 +1,19 @@
+target_amp_p2p_mm,scale,fixed_force_fmax_hz,fixed_force_fmax_display,fixed_force_all_frequencies_feasible,force_capacity_s2_fmax_hz,force_capacity_s2_fmax_display,force_capacity_s2_all_frequencies_feasible,force_minus_fixed_hz,interpretation
+1,0.8,10,>=10,True,10,>=10,True,0,both modes feasible through tested 10-Hz ceiling
+1,0.85,10,>=10,True,10,>=10,True,0,both modes feasible through tested 10-Hz ceiling
+1,0.9,10,>=10,True,10,>=10,True,0,both modes feasible through tested 10-Hz ceiling
+1,0.95,10,>=10,True,10,>=10,True,0,both modes feasible through tested 10-Hz ceiling
+1,1,10,>=10,True,10,>=10,True,0,both modes feasible through tested 10-Hz ceiling
+1,1.05,10,>=10,True,10,>=10,True,0,both modes feasible through tested 10-Hz ceiling
+1,1.1,10,>=10,True,10,>=10,True,0,both modes feasible through tested 10-Hz ceiling
+1,1.15,10,>=10,True,10,>=10,True,0,both modes feasible through tested 10-Hz ceiling
+1,1.2,10,>=10,True,10,>=10,True,0,both modes feasible through tested 10-Hz ceiling
+1.5,0.8,10,>=10,True,10,>=10,True,0,both modes feasible through tested 10-Hz ceiling
+1.5,0.85,10,>=10,True,10,>=10,True,0,both modes feasible through tested 10-Hz ceiling
+1.5,0.9,10,>=10,True,10,>=10,True,0,both modes feasible through tested 10-Hz ceiling
+1.5,0.95,10,>=10,True,10,>=10,True,0,both modes feasible through tested 10-Hz ceiling
+1.5,1,10,>=10,True,10,>=10,True,0,both modes feasible through tested 10-Hz ceiling
+1.5,1.05,10,>=10,True,10,>=10,True,0,both modes feasible through tested 10-Hz ceiling
+1.5,1.1,10,>=10,True,10,>=10,True,0,both modes feasible through tested 10-Hz ceiling
+1.5,1.15,10,>=10,True,10,>=10,True,0,both modes feasible through tested 10-Hz ceiling
+1.5,1.2,10,>=10,True,10,>=10,True,0,both modes feasible through tested 10-Hz ceiling

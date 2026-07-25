@@ -1,0 +1,5 @@
+# Canonical headless play script. The model writes its row at t=4.0 s;
+# 0.8 s of padding allows the final controller/output step to complete.
+play(4.8)
+waitForStop()
+quit()

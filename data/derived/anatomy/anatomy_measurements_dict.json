@@ -1,0 +1,11 @@
+{
+  "title": "Repository-minimized finalized anthropometry schema",
+  "version": "V13",
+  "columns": {
+    "participant_id": "Deidentified participant code.",
+    "measure": "Retained measure identifier; only co_me and height are included.",
+    "side": "Side label for side-specific Co-Me; height uses the released non-side-specific label.",
+    "value_mm": "Finalized released value in millimetres."
+  },
+  "limitations": "Raw assistant-by-repetition readings and the finalization calculation record are unavailable. No repeatability or measurement-error statistic is supported."
+}

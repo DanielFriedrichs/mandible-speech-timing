@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Build and reproduced outputs
+reproduced/
+*.log
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Archives and raw participant signals
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.bdf
+*.wav
+*.pos
+*.amp

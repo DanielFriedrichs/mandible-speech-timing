@@ -1,0 +1,6 @@
+dataset_id	repository_path	rows	columns	participants	sha256	purpose	excluded_scope
+primary_ddk	data/derived/primary/analysis_dataset_clean.csv	8123	10	28	4492e389789b7126c2b9f15588b682871f374cf917aa6006134c3090bffcf9ed	Primary, estimand, finite-cluster, interaction, and Figure 1 analyses.	Unneeded participant metadata and unrelated measurements.
+secondary_ema_audio	data/derived/secondary/analysis_ready_trials.csv	6134	11	23	10c3eedaf2f91990cc128639cf0475eb1c1583c821171d99a1a26d7dddb7b6e0	Secondary models, availability checks, acoustic sensitivity, and Figure 2.	Intermediate sweep variables and fields not used by retained analyses.
+read_speech	data/derived/read_speech/read_speech_envelope.csv	81	4	29	86e0c5c463c63e47992ea431102b107d5c5021592656e61a19f09187cf0f2303	Exploratory read-speech model and Figure S2.	Machine-local audio paths and unused recording diagnostics.
+anatomy	data/derived/anatomy/anatomy_measurements.csv	87	4	29	e157bc168902fd40f6bbde394a1bc3e2c4d1c5d08efa38bcc0cdccb5ffe385fd	Finalized Co-Me and height merge for read speech.	Anatomical measures not used by the retained analysis.
+upper_tail	data/derived/upper_tail/speaker_upper_limits_speech.csv	55	13	28	50d5962745589d87ede893b33196f20ecf49b395dac94a63eedc40fb55ed0722	Exploratory speaker-level upper-tail models.	Trial-level fields not required by these models.

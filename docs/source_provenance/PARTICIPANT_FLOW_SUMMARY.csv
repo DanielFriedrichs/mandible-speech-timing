@@ -1,0 +1,7 @@
+stage,participants,trials,description
+released_dataset_records,29,,Adult German-speaking participant records with anthropometry and metadata in dataset Version 1.2.
+primary_timing_analysis,28,8123,"Participants with finalized Co-Me, height, and at least one retained DDK timing trial."
+secondary_ema_audio_parent,23,6134,Sweep-aligned EMA/audio parent table.
+jaw_outcomes_complete_cases,22,3323,Jaw-cycle rate and scalar jaw-opening excursion.
+audio_outcome_complete_cases,23,5572,Dominant 2-10 Hz envelope modulation.
+exploratory_read_speech,26,73,Usable read-speech recordings included in the exploratory model.

@@ -1,0 +1,6 @@
+file,rows,max_abs_diffs,status
+demographic_sensitivity.csv,76,"{'beta': 0.0, 'robust_se': 0.0, 'ci_lower': 0.0, 'ci_upper': 0.0, 'p_value': 0.0, 'transformed_effect': 0.0, 'transformed_ci_lower': 0.0, 'transformed_ci_upper': 0.0}",PASS
+strict_acoustic_sensitivity.csv,12,"{'beta': 0.0, 'robust_se': 0.0, 'ci_lower': 0.0, 'ci_upper': 0.0, 'p_value': 0.0, 'transformed_effect': None, 'transformed_ci_lower': None, 'transformed_ci_upper': None}",PASS
+interaction_models.csv,26,"{'beta': 0.0, 'robust_se': 0.0, 'ci_lower': 0.0, 'ci_upper': 0.0, 'p_value': 0.0, 'transformed_effect': 0.0, 'transformed_ci_lower': 0.0, 'transformed_ci_upper': 0.0}",PASS
+interaction_slopes_by_rate.csv,4,"{'beta': 0.0, 'robust_se': 0.0, 'ci_lower': 0.0, 'ci_upper': 0.0, 'p_value': 0.0, 'transformed_effect': 0.0, 'transformed_ci_lower': 0.0, 'transformed_ci_upper': 0.0}",PASS
+read_speech_effects.csv,5,"{'beta': 0.0, 'robust_se': 0.0, 'ci_lower': 0.0, 'ci_upper': 0.0, 'p_value': 0.0, 'transformed_effect': None, 'transformed_ci_lower': None, 'transformed_ci_upper': None}",PASS

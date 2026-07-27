@@ -1,0 +1,10 @@
+Primary-outcome finite-cluster checks
+=====================================
+
+Input: minimized 8,123-trial primary table (28 speakers)
+Cluster variable: participant_id
+Cluster bootstrap resamples: 9,999
+Restricted-null wild-cluster bootstrap-t draws: 9,999
+Seed: 20260420
+
+All reported rows reproduce the manuscript Table S1 values.

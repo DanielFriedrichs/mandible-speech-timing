@@ -1,0 +1,9 @@
+family,outcome_specification,effect,ci_lower,ci_upper,p_value,unit,n_observations,n_speakers,authority_file
+Demographic,Speech rate + sex/age,-5.7604426232355843,-10.460220402665454,-0.81398218191673921,0.023020232890878099,percent,8123,28,results/canonical_empirical/demographic_sensitivity.csv
+Female-only,Speech rate,-6.4233897998954408,-11.520434450737582,-1.0327195643049736,0.020166735812590101,percent,6103,21,results/canonical_empirical/demographic_sensitivity.csv
+Demographic,Articulation rate + sex/age,-4.2773028189579732,-7.7559220224497345,-0.66750130188889534,0.020636376326981901,percent,8123,28,results/canonical_empirical/demographic_sensitivity.csv
+Female-only,Articulation rate,-4.82496731346993,-8.80287713499742,-0.67354580592546842,0.0231945907375916,percent,6103,21,results/canonical_empirical/demographic_sensitivity.csv
+Availability,Jaw-cycle metric available,1.0779382925541834,0.81973870237742774,1.4174650521985941,0.591123388617811,odds ratio,6134,23,results/sensitivities/availability_models.csv
+Availability,Acoustic metric available,1.8818632909658768,0.47685826895299832,7.426545110899565,0.36668157081145292,odds ratio,6134,23,results/sensitivities/availability_models.csv
+Acoustic,At least 50 valid trials,-0.21155621804392541,-0.34262376117891141,-0.080488674908939503,0.0015584188213986,Hz,5529,20,results/canonical_empirical/strict_acoustic_sensitivity.csv
+Acoustic,Alternative 1–10 Hz band,-0.1607327857523298,-0.27205088944691808,-0.049414682057741501,0.0046540128162289003,Hz,5572,23,results/sensitivities/audio_1_10hz_effects.csv

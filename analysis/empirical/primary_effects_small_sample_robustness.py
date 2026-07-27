@@ -24,9 +24,7 @@ speaker-level small-sample checks:
 Why OLS appears here although the manuscript says GEE:
     For a Gaussian identity-link GEE with an independence working correlation,
     the point estimates and CR0 sandwich standard errors are the same as the
-    corresponding linear model with participant-cluster sandwich SEs. The current
-    manuscript values in effect_sizes_per_10mm.csv match this independence-GEE / OLS
-    calculation. The bootstrap and CR2 checks therefore use the same mean model,
+    corresponding linear model with participant-cluster sandwich SEs. The reported values match this independence-GEE / OLS calculation. The bootstrap and CR2 checks therefore use the same mean model,
     but make the small number of independent speaker clusters explicit.
 
 Typical use from the project root:
@@ -47,7 +45,6 @@ Outputs:
     primary_effects_cluster_bootstrap_draws.csv.gz
     primary_effects_wild_cluster_t_draws.csv.gz  (unless --skip-wild)
 
-Author: prepared for Daniel Friedrichs' mandibular anatomy / DDK manuscript.
 """
 
 from __future__ import annotations
@@ -150,7 +147,7 @@ def load_and_prepare_data(data_file: Path) -> pd.DataFrame:
     df = df.copy()
 
     # Keep the same cleaned analysis set if the table contains an explicit QC flag.
-    # In the current analysis_dataset_clean.csv this should leave N unchanged.
+    # The bundled analysis dataset is already complete for these primary models.
     if "qc_exclude" in df.columns:
         df = df[~df["qc_exclude"].astype(bool)].copy()
 

@@ -1,21 +1,31 @@
 # Analysis hierarchy
 
-The study is observational and cross-sectional, with repeated DDK observations clustered within speakers. Human results are associations, not identified causal effects.
+## Primary outcomes
 
-## Primary
+- speech rate during oral diadochokinesis;
+- articulation rate during oral diadochokinesis.
 
-Height-conditioned associations of bilateral mean Co–Me with pause-inclusive speech rate and articulation rate. The canonical repeated-observation estimator is Gaussian identity-link GEE with participant clustering, an independence working correlation, and robust sandwich covariance. Co–Me is reported per +10 mm.
+The primary anatomical estimand is the association per 10 mm bilateral mean external Co-Me
+at a given modeled stature. Corresponding no-height models provide the absolute-length
+comparison. Finite-cluster and speaker-level checks quantify uncertainty in the two primary
+coefficients.
 
-## Principal secondary
+## Principal secondary outcomes
 
-Jaw-cycle rate, scalar jaw-opening excursion, and dominant 2–10-Hz acoustic-envelope modulation. These are overlapping subset associations, not independent replication or mediation evidence.
+- jaw-cycle rate;
+- scalar jaw-opening excursion;
+- dominant acoustic-envelope modulation.
 
-## Robustness and sensitivity
+These outcomes use smaller overlapping subsets and are not independent replications or
+causal mediators.
 
-Small-cluster procedures, primary estimand/no-height and shared-six checks, sex/age adjustment, female-only analysis, outcome-availability models, at-least-50-valid-acoustic-trial analysis, alternative 1–10-Hz acoustic band, Co–Me-by-rate interactions, speaker-level upper-tail summaries, and exploratory read speech.
+## Exploratory and sensitivity analyses
 
-## Separate corrected simulation
+Demographic specifications, outcome availability, an alternative acoustic band,
+Co-Me-by-rate interactions, speaker-level upper-tail summaries, and read speech are
+exploratory or sensitivity analyses.
 
-The retained ArtiSynth analysis is a negative transparency analysis. All 684 cells were feasible through 10 Hz, the highest tested frequency in fixed-force and s^2 force-capacity modes, and endpoints did not differ. It does not support the human mechanical interpretation. The manipulation is mass-and-inertia scaling, not weight scaling; `>=10 Hz within the tested grid` is a lower bound, not a physical maximum.
+## Model sensitivity analysis
 
-No formal familywise multiplicity correction was prespecified. Secondary and exploratory results must be interpreted through effect estimates, intervals, consistency, model dependence, and explicit qualification.
+The ArtiSynth analysis is separate from the human association. Its negative result does not
+provide mechanical support for the human finding.

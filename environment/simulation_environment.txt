@@ -1,12 +1,7 @@
-Corrected dynamic run environment (author workstation)
-- macOS 26.5.1 on arm64 hardware
-- x86_64 Eclipse Temurin Java 8, 1.8.0_472, invoked through /usr/bin/arch -x86_64
+Dynamic model environment recorded for the reported grid:
+- macOS 26.5.1, arm64 hardware
+- x86_64 Temurin Java 8, version 1.8.0_472
 - Python 3.12.7
 - ArtiSynth 3.9 installation
 
-Limitation: the exact semantic ArtiSynth build/commit identifier was not recoverable. The validated package retains launcher, base-class, source, compiled-class, and script hashes.
-
-V13 table-only validation environment
-- Python 3.13.5
-- NumPy 2.3.5
-- pandas 2.2.3
+The exact semantic ArtiSynth build identifier was not retained.

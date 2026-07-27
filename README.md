@@ -1,8 +1,7 @@
 # Mandibular length and rapid syllable timing
 
 Code, minimized deidentified derived data, validated outputs, and figure-generation
-materials for the study *External mandibular length at a given stature relates to rapid
-syllable-repetition timing*.
+materials for the study *External mandibular length at a given stature is linked to slower syllable repetition*.
 
 ## Study scope
 
